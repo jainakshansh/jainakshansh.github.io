@@ -23,6 +23,15 @@
     flex-wrap: wrap;
 }
 
+.top_header h3 {
+    font-weight: normal;
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 6vmax;
+    margin-left: 6vmax;
+    margin-right: 6vmax;
+}
+
 .logo_home {
     width: 100%;
     display: flex;
@@ -53,15 +62,16 @@
     animation-name: fadeInUp;
 }
 
-.logo_text > a {
-    color: #383838;
+.logo_text a {
     text-decoration: none;
+    color: #383838;
 }
 
 .top_nav {
     width: 100%;
     margin-left: 4vmax;
     margin-right: 4vmax;
+    margin-bottom: 4vmax;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
@@ -70,7 +80,7 @@
 .top_nav span {
     width: 33.33%;
 
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-fill-mode: both;
     -webkit-animation-name: fadeInUp;
@@ -110,14 +120,15 @@
 header {
     text-align: center;
     width: 100%;
-    padding-top: 12vmax;
+    padding-top: 6vmax;
     height: auto;
     overflow: hidden;
 }
 
 .content {
     width: 100%;
-    height: 100%;
+    padding-top: 12vmax;
+    padding-bottom: 20vmax;
 
     -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: 1;
@@ -135,54 +146,25 @@ header {
     animation-name: fadeInUp;
 }
 
-.content h1 {
-    color: #383838;
-    font-size: 1.8em;
-    letter-spacing: 1.5px;
-    margin-left: 6vmax;
-    margin-right: 6vmax;
-
-    -webkit-animation-delay: 1.2s;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-fill-mode: both;
-    -webkit-animation-name: fadeInUp;
-
-    -moz-animation-delay: 1.2s;
-    -moz-animation-duration: 2s;
-    -moz-animation-iteration-count: 1;
-    -moz-animation-fill-mode: both;
-    -moz-animation-name: fadeInUp;
-
-    animation-delay: 1.2s;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
-    animation-name: fadeInUp;
-}
-
 .content h3 {
     color: #383838;
     font-size: 1.4em;
     font-weight: normal;
-    margin-left: 6vmax;
-    margin-right: 6vmax;
+    margin-left: 8vmax;
+    margin-right: 8vmax;
     letter-spacing: 1.5px;
 
-    -webkit-animation-delay: 3s;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-fill-mode: both;
     -webkit-animation-name: fadeInUp;
 
-    -moz-animation-delay: 3s;
-    -moz-animation-duration: 1s;
+    -moz-animation-duration: 3s;
     -moz-animation-iteration-count: 1;
     -moz-animation-fill-mode: both;
     -moz-animation-name: fadeInUp;
 
-    animation-delay: 3s;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-iteration-count: 1;
     animation-fill-mode: both;
     animation-name: fadeInUp;
@@ -240,19 +222,19 @@ header {
     width: 100%;
 }
 
-.what_container {
+.work_container {
     width: 100%;
     padding-top: 8vmax;
 }
 
-.what_container h4 {
+.work_container h4 {
     font-size: 1.6em;
     color: #383838;
     margin-left: 6vmax;
     margin-right: 6vmax;
 }
 
-.what_container p {
+.work_container p {
     font-size: 1.4em;
     color: #383838;
     margin-left: 6vmax;
@@ -260,7 +242,7 @@ header {
 }
 
 .shoppingo_badge {
-    width: 30%;
+    width: 40%;
     margin-left: 6vmax;
     margin-right: 6vmax;
 }
@@ -278,44 +260,9 @@ header {
     width: 100%;
 }
 
-.what_container a {
+.work_container a {
     width: 100%;
     height: 100%;
-}
-
-.sociallinks {
-    margin-top: 12vmax;
-    margin-left: 6vmax;
-    margin-right: 6vmax;
-    margin-bottom: 8vmax;
-
-    -webkit-animation-delay: 3s;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-fill-mode: both;
-    -webkit-animation-name: fadeInUp;
-
-    -moz-animation-delay: 3s;
-    -moz-animation-duration: 1s;
-    -moz-animation-iteration-count: 1;
-    -moz-animation-fill-mode: both;
-    -moz-animation-name: fadeInUp;
-
-    animation-delay: 3s;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
-    animation-name: fadeInUp;
-}
-
-.sociallinks a {
-    text-decoration: none;
-    color: #888888;
-    margin: 2vmax;
-}
-
-#sl_ps:hover, #sl_li:hover, #sl_gh:hover, #sl_md:hover{
-    color: #383838;
 }
 
 .contactsec {
@@ -366,6 +313,25 @@ header {
     color: #383838;
 }
 
+#topButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#topButton:hover {
+  background-color: #383838;
+}
+
 @media screen and (min-width: 768px) {
 
     .top_header {
@@ -383,28 +349,18 @@ header {
         width: 30%;
         float: right;
         align-items: center;
+        margin-bottom: 0;
     }
 
-    .content img {
-        width: 192px;
-        height: 192px;
+    .content {
+        padding-top: 8vmax;
+        padding-bottom: 16vmax;
     }
 
-    .content h1 {
-        font-size: 2.5em;
-    }
-
-    .content h3 {
-        font-size: 2em;
-        margin-left: 10vmax;
-        margin-right: 10vmax;
-    }
-        
     .app_main {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        padding-bottom: 4vmax;
     }
 
     .app_info {
@@ -415,32 +371,22 @@ header {
         width: 100%;
     }
 
-    .what_container a {
+    .work_container a {
         width: 35%;
         height: 35%;
     }
 
-    .what_container h4 {
+    .work_container h4 {
         font-size: 2em;
     }
 
-    .what_container p {
+    .work_container p {
         font-size: 1.5em;
         color: #383838;
     }
 
     .first {
         order: 1;
-    }
-
-    .sociallinks a {
-        font-size: 1.75em;
-    }
-
-    .shoppingo_badge {
-        width: 30%;
-        margin-left: 6vmax;
-        margin-right: 6vmax;
     }
 
     .contact_links {
@@ -459,4 +405,4 @@ header {
     .cta_col {
         width: 50%;
     }
-}​
+}

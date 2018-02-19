@@ -260,7 +260,7 @@ header {
 }
 
 .shoppingo_badge {
-    width: 30%;
+    width: 40%;
     margin-left: 6vmax;
     margin-right: 6vmax;
 }
@@ -404,7 +404,6 @@ header {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        padding-bottom: 4vmax;
     }
 
     .app_info {
@@ -438,7 +437,7 @@ header {
     }
 
     .shoppingo_badge {
-        width: 30%;
+        width: 25%;
         margin-left: 6vmax;
         margin-right: 6vmax;
     }

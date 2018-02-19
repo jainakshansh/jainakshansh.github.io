@@ -222,6 +222,12 @@ header {
     width: 100%;
 }
 
+.gp_badge {
+    width: 40%;
+    margin-left: 6vmax;
+    margin-right: 6vmax;
+}
+
 .work_container {
     width: 100%;
     padding-top: 8vmax;
@@ -237,12 +243,6 @@ header {
 .work_container p {
     font-size: 1.4em;
     color: #383838;
-    margin-left: 6vmax;
-    margin-right: 6vmax;
-}
-
-.shoppingo_badge {
-    width: 40%;
     margin-left: 6vmax;
     margin-right: 6vmax;
 }
@@ -385,6 +385,11 @@ header {
         color: #383838;
     }
 
+    .app_img {
+        width: 35%;
+        height: 35%;
+    }
+
     .first {
         order: 1;
     }
@@ -404,5 +409,11 @@ header {
 
     .cta_col {
         width: 50%;
+    }
+
+    .gp_badge {
+        width: 25%;
+        margin-left: 6vmax;
+        margin-right: 6vmax;
     }
 }

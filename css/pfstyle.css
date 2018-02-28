@@ -11,10 +11,17 @@
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0px;
+}
+
 .navigation {
     width: 100%;
     display: table;
     background-color: #F8F8F8;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
 }
 
 .top_header {

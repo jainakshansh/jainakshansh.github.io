@@ -384,6 +384,7 @@ End of the services provided section.
 	text-align: center;
 	font-size: 1em;
 	padding: 1rem;
+	cursor: pointer;
 	margin-top: 8vh;
 	margin-bottom: 2vh;
 	letter-spacing: 3px;

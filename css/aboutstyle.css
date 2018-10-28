@@ -171,6 +171,12 @@ hr {
     letter-spacing: 2px;
 }
 
+.about_desc > h3 > a {
+    color: #383838;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-1vh);
+}
+
 .contact_info {
     width: 100%;
 }

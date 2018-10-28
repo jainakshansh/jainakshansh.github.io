@@ -234,6 +234,23 @@ Start of the Projects section.
     box-shadow: 2px 2.5px 5px 0 rgba(46, 61, 73, .08);
 }
 
+.coming_soon {
+    width: 14rem;
+    border: 0.125rem solid transparent;
+    background-color: #383838;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.80em;
+    padding: 1rem;
+    cursor: pointer;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 0.375rem;
+    transition: all 0.3s ease;
+    box-shadow: 8px 10px 20px 0 rgba(46, 61, 73, .08);
+}
+
 .img {
     width: 100%;
 }

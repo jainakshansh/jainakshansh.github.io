@@ -251,6 +251,11 @@ Start of the Projects section.
     box-shadow: 8px 10px 20px 0 rgba(46, 61, 73, .08);
 }
 
+.web_link {
+    color: #383838;
+    text-decoration: none;
+}
+
 .img {
     width: 100%;
 }
